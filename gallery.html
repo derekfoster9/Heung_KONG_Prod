@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-lang="galleryTitle">活動花絮 - 香江文藝慶典製作公司</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo/logo.png" alt="Logo" onerror="this.style.display='none'">
+        <span data-lang="companyName">香江文藝慶典製作公司</span>
+      </a>
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link" data-lang="navHome">首頁</a>
+        <a href="about.html" class="nav-link" data-lang="navAbout">關於我們</a>
+        <a href="services.html" class="nav-link" data-lang="navServices">服務項目</a>
+        <a href="gallery.html" class="nav-link active" data-lang="navGallery">活動花絮</a>
+        <a href="contact.html" class="nav-link" data-lang="navContact">聯絡我們</a>
+        <a href="faq.html" class="nav-link" data-lang="navFAQ">常見問題</a>
+        <div class="lang-toggle-group">
+          <button class="lang-toggle active" data-lang-target="zh-hk">繁</button>
+          <button class="lang-toggle" data-lang-target="zh-cn" data-lang="langToggle">简</button>
+        </div>
+      </div>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 data-lang="galleryTitle">活動花絮</h1>
+      <p>回顧我們精心打造的每一場精彩活動</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filters">
+        <button class="gallery-filter active" data-filter="all" data-lang="galleryAll">全部</button>
+        <button class="gallery-filter" data-filter="celebration" data-lang="galleryCategory1">慶典</button>
+        <button class="gallery-filter" data-filter="conference" data-lang="galleryCategory2">會議</button>
+        <button class="gallery-filter" data-filter="performance" data-lang="galleryCategory3">表演</button>
+        <button class="gallery-filter" data-filter="decoration" data-lang="galleryCategory4">佈置</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="celebration">
+          <img src="https://picsum.photos/seed/event1/600/800" alt="活動照片1" loading="lazy">
+          <div class="gallery-item-overlay"><span>喜慶典禮</span></div>
+        </div>
+        <div class="gallery-item" data-category="conference">
+          <img src="https://picsum.photos/seed/event2/600/500" alt="活動照片2" loading="lazy">
+          <div class="gallery-item-overlay"><span>商務會議</span></div>
+        </div>
+        <div class="gallery-item" data-category="performance">
+          <img src="https://picsum.photos/seed/event3/600/700" alt="活動照片3" loading="lazy">
+          <div class="gallery-item-overlay"><span>舞台表演</span></div>
+        </div>
+        <div class="gallery-item" data-category="decoration">
+          <img src="https://picsum.photos/seed/event4/600/600" alt="活動照片4" loading="lazy">
+          <div class="gallery-item-overlay"><span>會場佈置</span></div>
+        </div>
+        <div class="gallery-item" data-category="celebration">
+          <img src="https://picsum.photos/seed/event5/600/450" alt="活動照片5" loading="lazy">
+          <div class="gallery-item-overlay"><span>戶外慶典</span></div>
+        </div>
+        <div class="gallery-item" data-category="conference">
+          <img src="https://picsum.photos/seed/event6/600/650" alt="活動照片6" loading="lazy">
+          <div class="gallery-item-overlay"><span>宴會場地</span></div>
+        </div>
+        <div class="gallery-item" data-category="performance">
+          <img src="https://picsum.photos/seed/event7/600/550" alt="活動照片7" loading="lazy">
+          <div class="gallery-item-overlay"><span>音樂表演</span></div>
+        </div>
+        <div class="gallery-item" data-category="decoration">
+          <img src="https://picsum.photos/seed/event8/600/750" alt="活動照片8" loading="lazy">
+          <div class="gallery-item-overlay"><span>場地裝飾</span></div>
+        </div>
+        <div class="gallery-item" data-category="celebration">
+          <img src="https://picsum.photos/seed/event9/600/500" alt="活動照片9" loading="lazy">
+          <div class="gallery-item-overlay"><span>周年晚宴</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <img src="" alt="Lightbox Image">
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 data-lang="footerCompany">香江文藝慶典製作公司</h3>
+          <p><i class="fas fa-map-marker-alt"></i> <span data-lang="contactAddressValue">香港北角炮台山宏安道2-12號宏暉商場地下24B號鋪</span></p>
+          <p><i class="fas fa-phone"></i> +852 9660 1220</p>
+          <p><i class="fas fa-envelope"></i> info@hopefulpro.com</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="WeChat"><i class="fab fa-weixin"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4 data-lang="footerQuickLinks">快速連結</h4>
+          <ul>
+            <li><a href="index.html" data-lang="navHome">首頁</a></li>
+            <li><a href="about.html" data-lang="navAbout">關於我們</a></li>
+            <li><a href="services.html" data-lang="navServices">服務項目</a></li>
+            <li><a href="gallery.html" data-lang="navGallery">活動花絮</a></li>
+            <li><a href="contact.html" data-lang="navContact">聯絡我們</a></li>
+            <li><a href="faq.html" data-lang="navFAQ">常見問題</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4 data-lang="footerContact">聯絡資訊</h4>
+          <ul>
+            <li><i class="fas fa-phone"></i> +852 9660 1220</li>
+            <li><i class="fas fa-envelope"></i> info@hopefulpro.com</li>
+            <li><i class="fas fa-clock"></i> <span data-lang="contactHoursValue">星期一至六：上午9:00 - 下午6:00</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <span data-lang="footerCompany">香江文藝慶典製作公司</span>. <span data-lang="footerRights">版權所有 保留一切權利</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/lang-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
