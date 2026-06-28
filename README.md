@@ -130,3 +130,4 @@ HTML 元素使用 `data-lang` 屬性標記需要翻譯的內容，`switchLang()`
 - **字體**: [Google Fonts](https://fonts.google.com) (Noto Sans TC, Noto Sans SC, Poppins)
 - **佔位圖片**: [Picsum Photos](https://picsum.photos)
 - **部署**: [Vercel](https://vercel.com)
+# Heung_KONG_Prod
