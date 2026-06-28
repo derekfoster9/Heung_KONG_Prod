@@ -1,0 +1,31 @@
+{
+  "active_plan": "C:\\Users\\Btswin888\\Videos\\App1\\project\\HEUNG_KONG_PROD\\.sisyphus\\plans\\heung-kong-website.md",
+  "started_at": "2026-06-28T02:38:11.995Z",
+  "session_ids": [
+    "ses_0f3f802dbffeisDvwUy4LrMVEJ"
+  ],
+  "session_origins": {
+    "ses_0f3f802dbffeisDvwUy4LrMVEJ": "direct"
+  },
+  "plan_name": "heung-kong-website",
+  "agent": "atlas",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "Initialize Project Structure",
+      "session_id": "ses_0f3e68cf8ffeyUYQ2sS29YOUg1",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-06-28T03:02:24.226Z"
+    },
+    "todo:10": {
+      "task_key": "todo:10",
+      "task_label": "10",
+      "task_title": "Cross-Page QA Verification",
+      "session_id": "ses_0f3bb712affeyQ9L14epdoVw8w",
+      "agent": "explore",
+      "updated_at": "2026-06-28T03:53:31.007Z"
+    }
+  }
+}
